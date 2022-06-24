@@ -1,0 +1,25 @@
+.multi_bg_example{
+        background-image: url(/img/canva-hands-saving-small-house.concept-house-insurance-MADeq5zclnA.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    body{
+        vertical-align: center;
+    }
+    body>h1{
+        margin-top: 200px;
+        color: white;
+        height: 150px;
+        font-size: 80px;
+        font-style: italic;
+        text-align: center;
+     
+    }
+    body>h2{
+        
+        color: white;
+       font-size: 30px;
+        font-style: italic;
+        text-align: center;
+      
+    }
