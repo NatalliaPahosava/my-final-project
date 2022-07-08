@@ -5,9 +5,9 @@ body{
   height: 100vh;
 }
 .bg-video{
-  position: fixed;
-  right:0;
-  bottom: 0;
+position: fixed;
+right:0;
+bottom: 0;
 min-height: 100%;
 min-width: 100%;
 }
@@ -22,6 +22,7 @@ min-width: 100%;
   animation-duration: 5s;
   animation-iteration-count:1;
   animation-fill-mode:forwards;
+  
 }
 @keyframes show{
   0%{
@@ -71,7 +72,7 @@ padding:10px;
 margin-bottom: 10px;
 background-color: rgba(19, 7, 7, 0.026);
 border-radius: 5px;
-height: 15px;
+height: 20px;
 }
 .container input:hover{
   background-color: white;
@@ -79,15 +80,23 @@ height: 15px;
   height: 15px;
   }
   
-.container button {
+.container button{
 margin:20px;
 width: 150px;
-height: 30px;
+height: 50px;
 background-color: white;
 border-radius: 5px;
+font-size: 20px ;
 }
 .container button:hover{
   margin: 30px;
   background-color: rgba(0, 0, 0, 0.306);
   transition:  all ease 1.5s;
+}
+.container h2{
+  color: white;
+  margin: 20px;
+}
+.container h2:hover{
+  color: #8A2BE2;
 }
