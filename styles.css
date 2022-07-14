@@ -2,7 +2,7 @@
   margin: 0;
 }
 body{
-  height: 100vh;
+  height: 110vh;
 }
 .bg-video{
 position: fixed;
@@ -38,6 +38,7 @@ min-width: 100%;
 }
 
 .container .header-main{
+  margin-top: 50px;
   font-family:'Times New Roman', Times, serif;
   font-size: 10rem;
   text-transform: uppercase;
